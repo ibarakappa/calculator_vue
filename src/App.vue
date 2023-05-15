@@ -1,5 +1,20 @@
-<script></script>
+<script>
+import Calculator from "./components/Calculator.vue";
 
-<template></template>
+export default {
+   components: {
+      Calculator,
+   },
+};
+</script>
 
-<style scoped></style>
+<template>
+   <div class="main"><Calculator /></div>
+</template>
+
+<style scoped>
+.main {
+   width: 100vw;
+   height: 100vh;
+}
+</style>
